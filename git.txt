@@ -1,0 +1,21 @@
+cd
+dir 
+cd ..
+cls 
+
+per project one time setup
+
+1. > git init
+2. > git remote add origin <gitUrlgit config --global user. email "you@example.com">
+    example: git remote add origin https://github.com/sagartmg2/falgun
+
+    (optional)
+    > git remote -v 
+
+
+every day 
+
+1. > git status (optional)
+2. > git add .
+3. > git commit -m "message"
+4. > git push
