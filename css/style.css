@@ -1,0 +1,85 @@
+header {
+  margin: 20px;
+}
+header nav {
+  padding: 20px;
+  font-size: 40px;
+  background-color: blanchedalmond;
+}
+
+header a {
+  color: inherit;
+  text-decoration: none;
+}
+header nav a.active-link {
+  color: red;
+  text-decoration: underline;
+}
+
+img {
+  width: 500px;
+}
+#p1 {
+  text-align: justify;
+  color: black;
+  font-size: 30px;
+}
+#p2 {
+  text-align: justify;
+  color: black;
+  font-size: 30px;
+}
+h1 {
+  text-align: center;
+}
+
+#nav2 {
+  background-color: blanchedalmond;
+}
+
+#nav2 ul {
+  margin: 20px;
+  text-align: center;
+}
+
+#nav2 ul li {
+  font-size: 40px;
+  padding: 20px;
+  list-style-type: none;
+  display: inline;
+  color: black;
+}
+
+#nav2 ul a {
+  text-decoration: none;
+}
+
+#nav2 ul li a:visited {
+  color: green; /* Color when visited */
+}
+
+/* Additional style for visited links */
+#nav2 ul a:visited {
+  color: blue; /* Change the color of visited links */
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+footer {
+  font-size: 40px;
+  padding: 10px;
+  margin: 30px;
+  background-color: lightcyan;
+}
+footer a {
+  padding: 30px;
+  color: red;
+  text-decoration: none;
+}
+table th,
+td {
+  border: 1px solid black;
+}
