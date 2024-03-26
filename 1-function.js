@@ -84,9 +84,15 @@ let todos = [
 ];
 
 let todoS = (title) => {
-  let todo = todos.find((todo) => todo.title === title);
-
-  console.log(`${todo.title} is ${todo.status}`);
+ for (let i = 0; i < todos.length; i++) {
+    if (todos[i].title === title) {
+      console.log(`${todos[i].title} is ${todos[i].status}`);
+      return;
+    }
+  }
+    }
+  }
+  console.log(`${title} not found`);
 };
 
 todoS("html");
@@ -94,7 +100,7 @@ todoS("css");
 todoS("js");
 todoS("react");
 todoS("express");
- */
+ */ /* 
 let todos = [
   {
     title: "html",
@@ -127,3 +133,20 @@ let todoS = () => {
 };
 
 todoS();
+ */
+//rest operator
+/* let sum = (...rest) => {
+  let total = 0;
+  for (i = 0; i < rest.length; i++) {
+    total = total + rest[i];
+  }
+  return total;
+};
+console.log(sum(5, 5, 2)); */
+
+//arrow function and return keyword
+const add = (a, b) => {
+  return a + b;
+};
+let total = add(10, 20);
+console.log(total);
