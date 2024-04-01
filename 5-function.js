@@ -145,8 +145,115 @@ todoS();
 console.log(sum(5, 5, 2)); */
 
 //arrow function and return keyword
-const add = (a, b) => {
+/* const add = (a, b) => {
   return a + b;
 };
 let total = add(10, 20);
 console.log(total);
+
+ */
+
+/* let user1 = {
+  firstName: "Suman",
+  middleName: "Bahadur",
+  lastName: "Sapkota",
+};
+
+let user2 = {
+  firstName: "Sujan",
+  middleName: "Bahadur",
+  lastName: "Sapkota",
+};
+
+let getFullName = (userObj) => {
+  return `${userObj.firstName} ${userObj.middleName} ${userObj.lastName}`;
+};
+
+console.log(getFullName(user1));
+console.log(getFullName(user2));
+
+const triple = (input) => input * 3;
+console.log(triple(2));
+
+
+ */
+
+//difference between arrow function and normal function
+
+let squares = console.log(square(2));
+function square(input) {
+  return input * input;
+}
+// function pahilai call garera paxi define garda ni error aaudaina
+
+/* let cube = console.log(cubes(2));
+
+let cubes = (input1) => {
+  return input1 ^ 3;
+}; */
+
+//Cannot access 'cubes' before initialization
+//solving
+
+let cubes = (input1) => {
+  return input1 * input1 * input1;
+};
+let cube = console.log(cubes(2));
+
+greet("ram");
+greet("sita");
+greet("hari");
+
+/* sum(100,200) */
+console.log("ram", "sita", "hari");
+
+function activate() {
+  console.log("acivate");
+}
+
+let user = {
+  name: "ram",
+  login: function login() {
+    console.log("logged in ");
+  },
+  logout: function () {
+    console.log("logged out ");
+  },
+  activate,
+  deActivate: () => {
+    console.log("user deactivated");
+  },
+};
+
+console.log(user.name);
+user.login();
+user.logout();
+user.signOut = user.logout;
+user.signOut();
+user.activate();
+
+/* 
+    let console = {
+        log: function(){
+            
+        }
+    }
+ */
+
+/* 
+        research
+        - arrow function
+        - return
+
+        loop
+            - for loop
+        
+            
+        array functions
+        .forEach
+        .map
+        .filter
+
+    */
+
+function sum(inpu1, inpu2) {}
